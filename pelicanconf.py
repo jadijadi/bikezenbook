@@ -37,3 +37,6 @@ THEME = 'theme/bookstrap'
 
 DISPLAY_CATEGORIES_ON_MENU = False
 #TWITTER_USERNAME = "jadi"
+
+ARTICLE_ORDER_BY = 'filename'
+
