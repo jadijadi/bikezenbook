@@ -1,0 +1,15 @@
+node_modules
+*pyc
+.DS_Store
+notes.txt
+venv
+output
+srv.pid
+._.DS_Store
+*~
+__pycache__
+pelican.pid
+.vscode
+*swp
+publishconf.py
+.idea
