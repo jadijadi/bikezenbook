@@ -40,7 +40,8 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 ARTICLE_ORDER_BY = 'filename'
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
 
 MARKDOWN = {
     'extension_configs': {
