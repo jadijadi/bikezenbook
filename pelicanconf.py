@@ -40,3 +40,16 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 ARTICLE_ORDER_BY = 'filename'
 
+STATIC_PATHS = ['images']
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight',
+        },
+        'markdown.extensions.extra': {},
+        # optionally, more extensions,
+        # e.g. markdown.extensions.meta
+    },
+    'output_format': 'html5',
+}
