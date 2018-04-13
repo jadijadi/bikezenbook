@@ -1,10 +1,10 @@
 <ul class="nav nav-list">
 
 <li class="nav-header"><h4><i class="icon-external-link"></i>معرفی</h4></li>
-    <li><a href="{{ SITEURL }}/pages/about" >درباره</a></li>
-    <li><a href="{{ SITEURL }}/pages/downloads">دانلود</a></li>                
-    <li><a href="{{ SITEURL }}/pages/discuss">گفتگو</a></li>
-    <li><a href="{{ SITEURL }}/pages/support">حمایت</a></li>
+    <li><a href="{{ SITEURL }}/pages/about.html" >درباره</a></li>
+    <li><a href="{{ SITEURL }}/pages/downloads.html">دانلود</a></li>                
+    <li><a href="{{ SITEURL }}/pages/discuss.html">گفتگو</a></li>
+    <li><a href="{{ SITEURL }}/pages/support.html">حمایت</a></li>
 
 <li class="nav-header"><h4><i class="icon-home icon-large"></i>لینک ها</h4></li>
     <li><a href="http://instagram.com/khode_jadi" rel="alternate"><i class="icon-bookmark icon-large"></i>اینستاگرام</a></li>
@@ -13,14 +13,12 @@
     
 
 <li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>فصل ها</h4></li>
-{% for article in articles %}
-{% if article.category == 'chapters' %}
+{% for article in articles %} 
 <li>
 <a href="{{ SITEURL }}/{{ article.url }}">
     <i class="icon-folder-open icon-large"></i>{{ article.title }}
 </a>
 </li>
-{% endif %}
 {% endfor %}
 
 
