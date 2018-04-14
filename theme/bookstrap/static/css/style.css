@@ -49,7 +49,11 @@ p {
 
 .container {
 	direction: rtl;
-	width: 1200px !important;
+}
+@media (min-width:767px) {
+	.container {
+		width: 1200px !important;
+	}
 }
 
 pre {
