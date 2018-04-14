@@ -1,5 +1,5 @@
 title: انتخاب دوچرخه مناسب
-slug: how_to_buy_bicycle
+slug: select_the_type_of_bicycle
 date: 2017-06-09
 
 
