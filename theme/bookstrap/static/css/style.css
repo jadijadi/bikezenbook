@@ -47,8 +47,9 @@ p {
 	line-height: normal;
 }
 
-.container-fluid {
+.container {
 	direction: rtl;
+	width: 1200px !important;
 }
 
 pre {
