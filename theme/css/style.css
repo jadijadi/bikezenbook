@@ -47,8 +47,16 @@ p {
 	line-height: normal;
 }
 
-.container-fluid {
+.container {
 	direction: rtl;
+}
+.navbar .brand, .navbar .nav, .navbar .nav li {
+	float: right;
+}
+@media (min-width:767px) {
+	.container {
+		width: 1200px !important;
+	}
 }
 
 pre {
