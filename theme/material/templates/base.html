@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="{{ AUTHOR }}">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/materialize.css" type="text/css" />
+
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/materialize.css" type="text/css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/index.css" type="text/css" />
+    <!--link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap-rtl.css" type="text/css" /-->
+    <link href="{{ SITEURL }}/theme/css/font-awesome.css" rel="stylesheet">
+
+    <link href="{{ SITEURL }}/theme/css/pygments.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico">
+    <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ SITEURL }}/theme/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ SITEURL }}/theme/images/apple-touch-icon-114x114.png">
+
+    <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
+    {% if FEED_RSS %}
+    <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+
+  </head>
+
+  <body class="rtl">
+
+    <nav id="header">
+    <div class="nav-wrapper">
+        <a href="#" data-target="sidebar" class="sidenav-trigger btn-flat"><i class="material-icons">menu</i></a>
+        <h1 class="title" href="{{ SITEURL }}/index.html">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</h1>
+        <span class="spacer"></span>
+        <ul id="nav-mobile" class="hide-on-med-and-down itemBox">
+          <li><a href="{{ SITEURL }}/pages/about.html">درباره</a></li>
+          <li><a href="{{ SITEURL }}/pages/downloads.html">دانلود</a></li>
+          <li><a href="{{ SITEURL }}/pages/discuss.html">گفتگو</a></li>
+          <li><a href="{{ SITEURL }}/pages/support.html">حمایت</a></li>
+        </ul>
+    </div>
+  </nav>
+  <div id="sidebar" class="sidenav sidenav-fixed right-aligned">
+    {% include 'sidebar.html' %}
+  </div>
+
+  <div id="main">
+    <div class="row">
+      <div class="col s12">
+        <div class="row">
+          <div class="col s12">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">توجه</span>
+                <img src="{{ SITEURL }}/images/bike_multitool.png" align=left width="100px">
+                <p>این کتاب در حال نوشته شدن است. فصل ها کاملتر خواهد شد. شما در حال دیدن آن هستید چون نیازی نیست چیزی برای دیده شدن منتظر کامل شدن بماند. چیزهای همیشه در حال تکمیل شدن هستند، در این مورد هم همینطور است با این اختلاف که عملا تازه شروع به ساخته شدن
+                کرده؛ ولی دلیلی ندارد همین حالا هم به درد کسی نخورد. انتظار می رود در طول یک ماه آینده، همه فصل های اصلی نوشته شوند.
+                <br>
+                <br> اگر نکته ای برای شما سوال است یا انتظار دارید در این کتاب جواب داده شود، از منو به بخش گفتگو بروید و آن را مطرح کنید.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
+    <footer>
+      <address id="about">
+              ساخته شده با <a href="http://pelican.notmyidea.org/">Pelican <i class="icon-external-link"></i></a>,
+                              که خود از <a href="http://python.org">Python <i class="icon-external-link"></i></a> قدرت می‌گیرد.
+      </address><!-- /#about -->
+
+      <address class="description">این کتاب توسط <a href="http://jadi.net">جادی<i class="icon-external-link"></i></a> منتشر شده و
+           هر شکلی از تکثیر مجدد آن با ذکر نام و لینک اصلی مجاز است, شاد باشید!
+           <br />
+           به اصلاحی نیاز هست؟ می خواهید مشارکت کنید؟ پروژه
+            <a href="https://github.com/jadijadi/bikezenbook">روی گیت هاب</a> 
+             است.
+      </address>
+    </footer>
+  </div>
+
+    {% include 'analytics.html' %}
+    {% include 'piwik.html' %}
+    {% include 'disqus_script.html' %}
+
+    <!-- Le javascript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ SITEURL }}/theme/js/jquery-1.7.2.min.js"></script>
+    <script src = "{{ SITEURL }}/theme/js/materialize.min.js"></script>
+    <script type="text/javascript">
+      var elem = document.querySelector('.sidenav');
+      var options = {'edge': 'right'}
+      var instance = M.Sidenav.init(elem, options);
+
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
+  </body>
+</html>
