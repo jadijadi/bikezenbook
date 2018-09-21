@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'جادی'
-SITENAME = 'راهنمای گمشده دوچرخه در زندگی'
+SITENAME = 'راهنمای دوچرخه جادی'
 SITEURL = ''
 
 PATH = 'content'
