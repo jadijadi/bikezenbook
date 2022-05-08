@@ -9,5 +9,5 @@ A book about bikes in persian. You can find the book here: [BikeZen.ir](BikeZen.
 
 </div> 
 
-[BikeZen.ir](BikeZen.ir)
+[BikeZen.ir](https://bikezen.ir/)
 
