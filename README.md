@@ -1,5 +1,5 @@
 # bikezenbook
-A book about bikes in persian. You can find the book here: [BikeZen.ir](BikeZen.ir)
+A book about bikes in persian. You can find the book here: [BikeZen.ir](https://bikezen.ir/)
 
 <div dir="rtl">
 
