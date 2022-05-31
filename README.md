@@ -1,3 +1,4 @@
+
 # BikeZen
 A book about bikes in Farsi, you can find the actual book at [BikeZen.ir](http://bikezen.ir)
 
@@ -7,12 +8,13 @@ A book about bikes in Farsi, you can find the actual book at [BikeZen.ir](http:/
 یک کتاب درباره دوچرخه به زبان فارسی.\
 می‌توانید کتاب را در اینجا آنلاین بخوانید: [BikeZen.ir](https://bikezen.ir/)
 
-
+# راهنمای نصب  
+  
 ## نیازمندی‌ها
 * [پایتون](https://www.python.org/) نسخه 3 به بالا
 * پروژه [پلیکان](https://getpelican.com/)
 
-## راهنمای نصب
+##  نصب
 
 * پایتون را از [سایتش](https://www.python.org/) دانلود و نصب می‌کنیم.
 * دستورات زیر را به ترتیب وارد می‌کنیم:
