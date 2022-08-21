@@ -102,7 +102,6 @@ date: 2017-06-09
 - Acera
 - Alivio
 - Deore
-- DEORE
 - SLX
 - Deore XT
 - Deore XT Di2
