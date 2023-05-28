@@ -29,10 +29,10 @@ date: 2017-06-09
 
  اگه طبیعت گرد هستید یا به سفرهای هیجان انگیز میرید این برنامه میتونه سفرتون را جذاب تر هم نشون بده. با این برنامه میتونین مسیر پیمایش خودتون را به صورت سه بعدی روی نقشه با قابلیت های اضافه ببینین.
  این برنامه قابلیت اتصال به برنامه  STRAVA و دیگر برنامه‌های ورزشی را دارد.
- طبق معمول برای دریافتش به استور گوشی‌تون برین. 
- ![]({filename}/images/relive_1.jpg)
- 
- [سایت برنامه](https://www.relive.cc)  
- [لینک آیتونز](https://itunes.apple.com/us/app/relive-run-ride-hike-more/id1201703657?mt=8)  
- [لینک گوگل استور](https://play.google.com/store/apps/details?id=cc.relive.reliveapp&hl=en)  
- 
+ طبق معمول برای دریافتش به استور گوشی‌تون برین.
+
+ ![نمونه صفحه برنامه ریلایو]({filename}/images/relive_1.jpg)
+
+ [سایت برنامه](https://www.relive.cc)
+ [لینک آیتونز](https://itunes.apple.com/us/app/relive-run-ride-hike-more/id1201703657?mt=8)
+ [لینک گوگل استور](https://play.google.com/store/apps/details?id=cc.relive.reliveapp&hl=en)
